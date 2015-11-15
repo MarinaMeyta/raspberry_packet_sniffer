@@ -1,0 +1,50 @@
+\input{config}
+
+\begin{document}
+
+\input{title}
+\input{referat}
+
+\newpage
+\ESKDstyle{plain}
+\tableofcontents
+
+\newpage
+\ESKDstyle{plain}
+\addcontentsline{toc}{section}{ТЕХНИЧЕСКОЕ ЗАДАНИЕ}
+\input{technical_task/tt_main}
+
+\titleformat{\section}{\centering\normalfont\normalsize}{\thesection}{1.0em}{}
+\titleformat{\subsection}{\centering\normalfont\normalsize}{\thesubsection}{1.0em}{}
+\titleformat{\subsubsection}{\centering\normalfont\normalsize}{\thesubsection}{1.0em}{}
+
+\newpage
+\ESKDstyle{plain}
+\setcounter{section}{0}
+\section*{ВВЕДЕНИЕ}
+\addcontentsline{toc}{section}{ВВЕДЕНИЕ}
+\input{intro}
+
+
+
+% ----
+
+
+% руководство пользователя
+% руководство программиста
+% перспективы применения
+% заключение
+
+\clearpage
+\renewcommand{\refname}{Список использованных источников}
+\bibliography{lit}
+
+\ESKDappendix{Обязательное}{\normalfont Компакт-диск}
+Компакт-диск содержит: 
+\begin{itemize}
+\item электронную версию пояснительной записки в форматах *.tex и *.pdf;
+\item \textbf{актуальную версию программы};
+\item \textbf{???}.
+\end{itemize}
+
+\end{document}
