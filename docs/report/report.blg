@@ -11,7 +11,7 @@ Warning--empty journal in article
 Warning--empty journal in daemon
 You've used 6 entries,
             2964 wiz_defined-function locations,
-            684 strings with 6286 characters,
+            685 strings with 6354 characters,
 and the built_in function-call counts, 920 in all, are:
 = -- 102
 > -- 6

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.1.8)  10 JAN 2016 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.1.8)  10 JAN 2016 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,10 +810,19 @@ Package pdftex.def Info: images/mm_7.png used on input line 70.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15 <./images/mm_5.png> <./images/mm_6.png>] [16 <./images/mm_7.png>]) [17
+[15 <./images/mm_5.png> <./images/mm_6.png>] [16 <./images/mm_7.png>])
+(./tcpdump.tex <images/tcpdump_1.png, id=68, 771.88374pt x 73.27374pt>
+File: images/tcpdump_1.png Graphic file (type png)
 
-]
-(./conclusion.tex) [18] (./report.bbl
+<use images/tcpdump_1.png>
+Package pdftex.def Info: images/tcpdump_1.png used on input line 17.
+(pdftex.def)             Requested size: 305.58572pt x 29.00821pt.
+ [17
+
+ <./images/tcpdump_1.png>]) (./wireshark.tex)
+[18
+
+] (./conclusion.tex) [19] (./report.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 12--16
 []\T2A/ftm/m/n/12 Образовательный стан-дарт ВУ-За ОС ТУ-СУР 01-2013 [Элек-трон-
 ный ре-сурс]. URL:
@@ -837,116 +846,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--36
 й ре-сурс]. URL:
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.41 .../san.ee.ic.ac.uk/iscis2014/proceedings/27_
-                                                  turk.pdf (РґР°С‚Р°
-? 
-
-LaTeX Warning: Command \cyrd invalid in math mode on input line 41.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 41.
-
-
-LaTeX Warning: Command \cyrt invalid in math mode on input line 41.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 41.
-
-
-LaTeX Warning: Command \cyro invalid in math mode on input line 42.
-
-
-LaTeX Warning: Command \cyrb invalid in math mode on input line 42.
-
-
-LaTeX Warning: Command \cyrr invalid in math mode on input line 42.
-
-
-LaTeX Warning: Command \cyra invalid in math mode on input line 42.
-
-
-LaTeX Warning: Command \cyrshch invalid in math mode on input line 42.
-
-
-LaTeX Warning: Command \cyre invalid in math mode on input line 42.
-
-
-LaTeX Warning: Command \cyrn invalid in math mode on input line 42.
-
-
-LaTeX Warning: Command \cyri invalid in math mode on input line 42.
-
-
-LaTeX Warning: Command \cyrya invalid in math mode on input line 42.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.43 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.43 
-     
-? 
-Missing character: There is no д in font cmr12!
-Missing character: There is no а in font cmr12!
-Missing character: There is no т in font cmr12!
-Missing character: There is no а in font cmr12!
-Missing character: There is no о in font cmr12!
-Missing character: There is no б in font cmr12!
-Missing character: There is no р in font cmr12!
-Missing character: There is no а in font cmr12!
-Missing character: There is no щ in font cmr12!
-Missing character: There is no е in font cmr12!
-Missing character: There is no н in font cmr12!
-Missing character: There is no и in font cmr12!
-Missing character: There is no я in font cmr12!
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.43 
-     
-? 
 ! Misplaced alignment tab character &.
-l.48 ...pberrypi.org/forums/viewtopic.php?t=24615&
+l.47 ...berrypi.org/forums/ viewtopic.php?t=24615&
                                                   p=263373 (РґР°С‚Р°
 ? 
 
-Underfull \hbox (badness 1297) in paragraph at lines 46--50
-[]\T2A/ftm/m/n/12 Real Time Wireless Packet Monitoring with Raspberry Pi Sniffe
-r [Элек-трон-ный ре-сурс]. URL:
+Underfull \hbox (badness 2443) in paragraph at lines 46--49
+[]\T2A/ftm/m/n/12 Wifi ad-hoc setup raspbian [Элек-трон-ный ре-сурс]. URL: http
+s://www.raspberrypi.org/forums/
  []
 
 ) 
 AED: lastpage setting LastPage
-[19
+[20
 
 ] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 9175 strings out of 493105
- 136547 string characters out of 6137073
- 218604 words of memory out of 5000000
- 12366 multiletter control sequences out of 15000+600000
+ 9187 strings out of 493105
+ 136748 string characters out of 6137073
+ 218616 words of memory out of 5000000
+ 12371 multiletter control sequences out of 15000+600000
  21826 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,7n,42p,1080b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/scalable-cyrfonts-tex/6r.en
-c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/
-fonts/type1/public/scalable-cyrfonts-tex/fcrr6w.pfb></usr/share/texmf/fonts/typ
-e1/public/scalable-cyrfonts-tex/ftmb6w.pfb></usr/share/texmf/fonts/type1/public
-/scalable-cyrfonts-tex/ftmr6w.pfb>
-Output written on report.pdf (17 pages, 889762 bytes).
+c}</usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/fcrr6w.pfb></usr/s
+hare/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmb6w.pfb></usr/share/texm
+f/fonts/type1/public/scalable-cyrfonts-tex/ftmr6w.pfb>
+Output written on report.pdf (18 pages, 880669 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -38,14 +38,13 @@
 \selectlanguageifdefined{english}
 {Real Time Wireless Packet Monitoring with Raspberry Pi Sniffer
   [Электронный ресурс]}. URL:
-  http://san.ee.ic.ac.uk/iscis2014/proceedings/27_turk.pdf (дата
+  http://san.ee.ic.ac.uk/iscis2014/proceedings/27\_turk.pdf (дата
   обращения: 19.09.2015).{}
 
 \bibitem{daemon}
 \selectlanguageifdefined{english}
-{Real Time Wireless Packet Monitoring with Raspberry Pi Sniffer
-  [Электронный ресурс]}. URL:
-  https://www.raspberrypi.org/forums/viewtopic.php?t=24615&p=263373 (дата
+{Wifi ad-hoc setup raspbian [Электронный ресурс]}. URL:
+  https://www.raspberrypi.org/forums/ viewtopic.php?t=24615&p=263373 (дата
   обращения: 09.11.2015).{}
 
 \end{thebibliography}
