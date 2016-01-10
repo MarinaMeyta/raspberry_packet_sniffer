@@ -7,6 +7,13 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
+\bibitem{os_tusur}
+\selectlanguageifdefined{russian}
+{Образовательный стандарт ВУЗа ОС ТУСУР
+  01-2013 [Электронный ресурс]}. URL:
+  http://asu.tusur.ru/learning/books/b12.pdf (дата обращения:
+  27.09.2015).{}
+
 \bibitem{raspbian_downloads}
 \selectlanguageifdefined{english}
 {Raspbian [Электронный ресурс]}. URL:
@@ -19,5 +26,26 @@
   ресурс]}. URL:
   https://www.raspberrypi.org/documentation/installation/installing-images/README.md
   (дата обращения: 25.09.2015).{}
+
+\bibitem{rpi-tp}
+\selectlanguageifdefined{english}
+{Drivers for TL-WN725N V2 --- 3.6.11+ -> 4.1.xx+ [Электронный
+  ресурс]}. URL:
+  https://www.raspberrypi.org/forums/viewtopic.php?p=462982 (дата
+  обращения: 10.10.2015).{}
+
+\bibitem{article}
+\selectlanguageifdefined{english}
+{Real Time Wireless Packet Monitoring with Raspberry Pi Sniffer
+  [Электронный ресурс]}. URL:
+  http://san.ee.ic.ac.uk/iscis2014/proceedings/27_turk.pdf (дата
+  обращения: 19.09.2015).{}
+
+\bibitem{daemon}
+\selectlanguageifdefined{english}
+{Real Time Wireless Packet Monitoring with Raspberry Pi Sniffer
+  [Электронный ресурс]}. URL:
+  https://www.raspberrypi.org/forums/viewtopic.php?t=24615&p=263373 (дата
+  обращения: 09.11.2015).{}
 
 \end{thebibliography}
