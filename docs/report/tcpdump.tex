@@ -14,10 +14,25 @@ $ sudo tcpdump -v -i wlan0 -s 0 -w /tmp/sniff.pcap -c <число_пакетов
 После этого необходимо скопировать полученный pcap-файл на основную машину с Ubuntu для дальнейшего анализа в программе Wireshark. Сделать это можно при момощи команды scp (рис.~\ref{tcpdump_1:tcpdump_1}).
 
 \begin{figure}[h!]
-\center{\includegraphics[width=0.6\linewidth]{tcpdump_1}}
+\center{\includegraphics[width=0.9\linewidth]{tcpdump_1}}
 \caption{ Копирование pcap-файла по ssh-соединению }
 \label{tcpdump_1:tcpdump_1}
 \end{figure}
+
+Теперь на главной машине можно открыть полученный pcap-файл в программе Wireshark и ознакомиться с его содержимым (рис.~\ref{wireshark_1:wireshark_1}. Tcpdump можно также использовать для чтения и анализа полученного pcap-файла (рис.~\ref{tcpdump_2:tcpdump_2}).
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.8\linewidth]{wireshark_1}}
+\caption{ Просмотр содержимого pcap-файла в wireshark }
+\label{wireshark_1:wireshark_1}
+\end{figure}
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.9\linewidth]{tcpdump_2}}
+\caption{ Просмотр содержимого pcap-файла в tcpdump }
+\label{tcpdump_2:tcpdump_2}
+\end{figure}
+
 
 \clearpage
 

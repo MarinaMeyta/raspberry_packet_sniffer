@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.1.8)  10 JAN 2016 20:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.1.8)  10 JAN 2016 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -650,18 +650,13 @@ File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 \openout3 = `report.toc'.
 
 
-[5] (./intro.tex
-LaTeX Font Info:    Font shape `T2A/ftm/bx/n' in size <12> not available
-(Font)              Font shape `T2A/ftm/b/n' tried instead on input line 7.
-) [6]
-
-! LaTeX Error: File `instruments.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-[7] (./raspbian_installation.tex
+[5] (./intro.tex) [6] (./instruments.tex
+<images/1.png, id=16, 659.8251pt x 314.1336pt>
+File: images/1.png Graphic file (type png)
+ <use images/1.png>
+Package pdftex.def Info: images/1.png used on input line 15.
+(pdftex.def)             Requested size: 458.37083pt x 218.22395pt.
+) [7 <./images/1.png>] (./raspbian_installation.tex
 <images/raspbian_1.png, id=20, 731.73375pt x 502.87875pt>
 File: images/raspbian_1.png Graphic file (type png)
 
@@ -816,13 +811,34 @@ File: images/tcpdump_1.png Graphic file (type png)
 
 <use images/tcpdump_1.png>
 Package pdftex.def Info: images/tcpdump_1.png used on input line 17.
-(pdftex.def)             Requested size: 305.58572pt x 29.00821pt.
- [17
+(pdftex.def)             Requested size: 458.37083pt x 43.51175pt.
 
- <./images/tcpdump_1.png>]) (./wireshark.tex)
-[18
+<images/wireshark_1.png, id=69, 745.78625pt x 629.35126pt>
+File: images/wireshark_1.png Graphic file (type png)
 
-] (./conclusion.tex) [19] (./report.bbl
+<use images/wireshark_1.png>
+Package pdftex.def Info: images/wireshark_1.png used on input line 25.
+(pdftex.def)             Requested size: 407.44505pt x 343.82991pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/tcpdump_2.png, id=70, 1488.56125pt x 312.16624pt>
+File: images/tcpdump_2.png Graphic file (type png)
+
+<use images/tcpdump_2.png>
+Package pdftex.def Info: images/tcpdump_2.png used on input line 31.
+(pdftex.def)             Requested size: 458.37083pt x 96.12273pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17
+
+ <./images/tcpdump_1.png>] [18 <./images/wireshark_1.png> <./images/tcpdump_2.p
+ng>]) (./conclusion.tex) [19
+
+] (./report.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 12--16
 []\T2A/ftm/m/n/12 Образовательный стан-дарт ВУ-За ОС ТУ-СУР 01-2013 [Элек-трон-
 ный ре-сурс]. URL:
@@ -862,21 +878,20 @@ AED: lastpage setting LastPage
 
 ] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 9187 strings out of 493105
- 136748 string characters out of 6137073
- 218616 words of memory out of 5000000
- 12371 multiletter control sequences out of 15000+600000
- 21826 words of font info for 44 fonts, out of 8000000 for 9000
+ 9200 strings out of 493105
+ 137059 string characters out of 6137073
+ 218650 words of memory out of 5000000
+ 12384 multiletter control sequences out of 15000+600000
+ 20411 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,7n,42p,1080b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/scalable-cyrfonts-tex/6r.en
 c}</usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/fcrr6w.pfb></usr/s
-hare/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmb6w.pfb></usr/share/texm
-f/fonts/type1/public/scalable-cyrfonts-tex/ftmr6w.pfb>
-Output written on report.pdf (18 pages, 880669 bytes).
+hare/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmr6w.pfb>
+Output written on report.pdf (18 pages, 1792191 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
