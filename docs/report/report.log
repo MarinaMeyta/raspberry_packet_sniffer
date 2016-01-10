@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.10.18)  15 NOV 2015 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.1.8)  10 JAN 2016 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,13 +422,9 @@ File: uni-global.def 2013/05/13 UCS: Unicode global data
 \uc@combtoksb=\toks25
 \uc@temptokena=\toks26
 )
-
-! LaTeX Error: File `cyrtimes.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
+(/usr/share/texmf/tex/latex/scalable-cyrfonts-tex/cyrtimes.sty
+Package: cyrtimes 2001/02/08 scalable-cyrfonts
+)
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip83
@@ -537,7 +533,16 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Try loading font information for OT1+ftm on input line 3.
 
+(/usr/share/texmf/tex/latex/scalable-cyrfonts-tex/ot1ftm.fd
+File: ot1ftm.fd 2014/01/03 Fontinst v1.933 font definitions for OT1/ftm.
+)
+LaTeX Font Info:    Try loading font information for T2A+ftm on input line 3.
+
+(/usr/share/texmf/tex/latex/scalable-cyrfonts-tex/t2aftm.fd
+File: t2aftm.fd 2014/01/03 Fontinst v1.933 font definitions for T2A/ftm.
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -610,22 +615,6 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-
-LaTeX Font Warning: Font shape `T2A/cmr/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 3.
-
-
-LaTeX Font Warning: Font shape `T2A/cmr/m/sl' in size <20> not available
-(Font)              size <20.74> substituted on input line 3.
-
-
-LaTeX Font Warning: Font shape `T2A/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 3.
-
-
-LaTeX Font Warning: Font shape `T2A/cmr/m/sl' in size <16> not available
-(Font)              size <17.28> substituted on input line 3.
-
 ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Incompatible package detected (regarding \@caption).
@@ -661,38 +650,257 @@ File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 \openout3 = `report.toc'.
 
 
-[3] (./technical_task/tt_main.tex) (./intro.tex) [4] (./report.bbl
+[3] (./intro.tex
+LaTeX Font Info:    Font shape `T2A/ftm/bx/n' in size <12> not available
+(Font)              Font shape `T2A/ftm/b/n' tried instead on input line 7.
+) [4] [5] (./raspbian_installation.tex
+<images/raspbian_1.png, id=20, 731.73375pt x 502.87875pt>
+File: images/raspbian_1.png Graphic file (type png)
 
-LaTeX Warning: Empty `thebibliography' environment on input line 10.
+<use images/raspbian_1.png>
+Package pdftex.def Info: images/raspbian_1.png used on input line 4.
+(pdftex.def)             Requested size: 407.44505pt x 280.01413pt.
+LaTeX Font Info:    Try loading font information for T2A+fcr on input line 13.
 
-) [5
+(/usr/share/texmf/tex/latex/scalable-cyrfonts-tex/t2afcr.fd
+File: t2afcr.fd 2014/01/03 Fontinst v1.933 font definitions for T2A/fcr.
+)) (./network.tex
+<images/network_1.png, id=21, 704.6325pt x 481.8pt>
+File: images/network_1.png Graphic file (type png)
+ <use images/network_1.png>
+Package pdftex.def Info: images/network_1.png used on input line 5.
+(pdftex.def)             Requested size: 305.58572pt x 208.94905pt.
 
-] 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/network_2.png, id=22, 707.64375pt x 476.78125pt>
+File: images/network_2.png Graphic file (type png)
+
+<use images/network_2.png>
+Package pdftex.def Info: images/network_2.png used on input line 12.
+(pdftex.def)             Requested size: 305.58572pt x 205.89221pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/network_3.png, id=23, 587.19376pt x 479.7925pt>
+File: images/network_3.png Graphic file (type png)
+
+<use images/network_3.png>
+Package pdftex.def Info: images/network_3.png used on input line 18.
+(pdftex.def)             Requested size: 305.58572pt x 249.6912pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/network_4.png, id=24, 584.1825pt x 479.7925pt>
+File: images/network_4.png Graphic file (type png)
+
+<use images/network_4.png>
+Package pdftex.def Info: images/network_4.png used on input line 24.
+(pdftex.def)             Requested size: 305.58572pt x 250.98701pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/network_5.png, id=25, 508.90125pt x 567.11874pt>
+File: images/network_5.png Graphic file (type png)
+
+<use images/network_5.png>
+Package pdftex.def Info: images/network_5.png used on input line 33.
+(pdftex.def)             Requested size: 305.58572pt x 340.55943pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/network_6.png, id=26, 505.89pt x 572.1375pt>
+File: images/network_6.png Graphic file (type png)
+
+<use images/network_6.png>
+Package pdftex.def Info: images/network_6.png used on input line 39.
+(pdftex.def)             Requested size: 305.58572pt x 345.60735pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./images/raspbian_1.png>] [7 <./images/network_1.png> <./images/network_2.p
+ng>] [8 <./images/network_3.png> <./images/network_4.png>] [9 <./images/network
+_5.png>] [10 <./images/network_6.png>]) (./ssh.tex
+<images/ssh_1.png, id=44, 667.49374pt x 111.41624pt>
+File: images/ssh_1.png Graphic file (type png)
+ <use images/ssh_1.png>
+Package pdftex.def Info: images/ssh_1.png used on input line 7.
+(pdftex.def)             Requested size: 407.44505pt x 68.0114pt.
+
+<images/ssh_2.png, id=45, 604.2575pt x 354.32375pt>
+File: images/ssh_2.png Graphic file (type png)
+ <use images/ssh_2.png>
+Package pdftex.def Info: images/ssh_2.png used on input line 15.
+(pdftex.def)             Requested size: 407.44505pt x 238.9149pt.
+
+[11
+
+ <./images/ssh_1.png> <./images/ssh_2.png>]) (./driver.tex
+<images/driver_1.png, id=49, 695.59875pt x 35.13126pt>
+File: images/driver_1.png Graphic file (type png)
+
+<use images/driver_1.png>
+Package pdftex.def Info: images/driver_1.png used on input line 6.
+(pdftex.def)             Requested size: 407.44505pt x 20.57768pt.
+
+<images/driver_2.png, id=50, 502.87875pt x 85.31876pt>
+File: images/driver_2.png Graphic file (type png)
+
+<use images/driver_2.png>
+Package pdftex.def Info: images/driver_2.png used on input line 13.
+(pdftex.def)             Requested size: 305.58572pt x 51.84517pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+[]\T2A/ftm/m/n/12 тут ссыл-ка на то,как уста-нав-ли-вать драй-вер со-глас-но ве
+р-сии си-сте-мы
+ []
+
+<images/driver_3.png, id=51, 807.015pt x 194.7275pt>
+File: images/driver_3.png Graphic file (type png)
+ <use images/driver_3.png>
+Package pdftex.def Info: images/driver_3.png used on input line 25.
+(pdftex.def)             Requested size: 407.44505pt x 98.31432pt.
+
+<images/driver_4.png, id=52, 660.4675pt x 281.05pt>
+File: images/driver_4.png Graphic file (type png)
+ <use images/driver_4.png>
+Package pdftex.def Info: images/driver_4.png used on input line 33.
+(pdftex.def)             Requested size: 356.5115pt x 151.71327pt.
+
+<images/driver_5.png, id=53, 577.15625pt x 401.5pt>
+File: images/driver_5.png Graphic file (type png)
+ <use images/driver_5.png>
+Package pdftex.def Info: images/driver_5.png used on input line 41.
+(pdftex.def)             Requested size: 305.58572pt x 212.59181pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./monitor_mode.tex <images/mm_1.png, id=54, 441.65pt x 87.32625pt>
+File: images/mm_1.png Graphic file (type png)
+
+<use images/mm_1.png>
+Package pdftex.def Info: images/mm_1.png used on input line 4.
+(pdftex.def)             Requested size: 305.58572pt x 60.42574pt.
+ [12
+
+ <./images/driver_1.png (PNG copy)> <./images/driver_2.png (PNG copy)> <./image
+s/driver_3.png> <./images/driver_4.png>]
+<images/mm_2.png, id=58, 388.45125pt x 24.09pt>
+File: images/mm_2.png Graphic file (type png)
+ <use images/mm_2.png>
+Package pdftex.def Info: images/mm_2.png used on input line 11.
+(pdftex.def)             Requested size: 305.58572pt x 18.95148pt.
+
+<images/mm_3.png, id=59, 222.8325pt x 211.79124pt>
+File: images/mm_3.png Graphic file (type png)
+ <use images/mm_3.png>
+Package pdftex.def Info: images/mm_3.png used on input line 18.
+(pdftex.def)             Requested size: 152.79286pt x 145.22154pt.
+
+<images/mm_4.png, id=60, 615.29875pt x 224.84pt>
+File: images/mm_4.png Graphic file (type png)
+ <use images/mm_4.png>
+Package pdftex.def Info: images/mm_4.png used on input line 25.
+(pdftex.def)             Requested size: 356.5115pt x 130.27692pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/mm_5.png, id=61, 620.3175pt x 226.8475pt>
+File: images/mm_5.png Graphic file (type png)
+ <use images/mm_5.png>
+Package pdftex.def Info: images/mm_5.png used on input line 33.
+(pdftex.def)             Requested size: 356.5115pt x 130.37398pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./images/driver_5.png> <./images/mm_1.png> <./images/mm_2.png> <./images/m
+m_3.png>] <images/mm_6.png, id=66, 470.75874pt x 56.21pt>
+File: images/mm_6.png Graphic file (type png)
+
+<use images/mm_6.png>
+Package pdftex.def Info: images/mm_6.png used on input line 47.
+(pdftex.def)             Requested size: 305.58572pt x 36.48802pt.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.56 sudo service ifplugd stop #
+                                РѕСЃС‚Р°РЅР°РІР»РёРІР°РµРј СЂР°Р±РѕС‚Сѓ РґРµ...
+
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.57 sudo ifconfig wlan0 down #
+                               РѕС‚РєР»СЋС‡Р°РµРј wi-fi СЃРѕРµРґРёРЅРµРЅРёРµ
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.58 sudo iwconfig wlan0 mode monitor #
+                                       РІРєР»СЋС‡Р°РµРј РїСЂРѕСЃР»СѓС€РёРІР°...
+
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.59 sudo ifconfig wlan0 up #
+                             РІРєР»СЋС‡Р°РµРј wi-fi СЃРѕРµРґРёРЅРµРЅРёРµ
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.60 sudo service ifplugd start #
+                                 Р·Р°РїСѓСЃРєР°РµРј РґРµРјРѕРЅР°
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.61 iwconfig #
+               РїСЂРѕРІРµСЂСЏРј РЅР°СЃС‚СЂРѕР№РєРё
+? 
+<images/mm_7.png, id=67, 616.3025pt x 327.2225pt>
+File: images/mm_7.png Graphic file (type png)
+ <use images/mm_7.png>
+Package pdftex.def Info: images/mm_7.png used on input line 66.
+(pdftex.def)             Requested size: 305.58572pt x 162.25275pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 <./images/mm_4.png> <./images/mm_5.png> <./images/mm_6.png>] [15 <./images/
+mm_7.png>]) [16
+
+] (./conclusion.tex) [17] (./report.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
+[]\T2A/ftm/m/n/12 Installing Operating System Images on Linux [Элек-трон-ный ре
+-сурс]. URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
+\T2A/ftm/m/n/12 https://www.raspberrypi.org/documentation/installation/installi
+ng-images/README.md (да-та об-
+ []
+
+) 
 AED: lastpage setting LastPage
-[6
+[18
 
-] (./report.aux)
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.28pt have occurred.
-
- ) 
+] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 8940 strings out of 493105
- 132602 string characters out of 6137071
- 216075 words of memory out of 5000000
- 12181 multiletter control sequences out of 15000+600000
- 14468 words of font info for 35 fonts, out of 8000000 for 9000
+ 9188 strings out of 493105
+ 136900 string characters out of 6137073
+ 218621 words of memory out of 5000000
+ 12377 multiletter control sequences out of 15000+600000
+ 21826 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,7n,42p,480b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texmf
-/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pf
-b>
-Output written on report.pdf (6 pages, 48327 bytes).
+ 52i,7n,42p,1015b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/scalable-cyrfonts-tex/6r.en
+c}</usr/share/texmf/fonts/type1/public/scalable-cyrfonts-tex/fcrr6w.pfb></usr/s
+hare/texmf/fonts/type1/public/scalable-cyrfonts-tex/ftmb6w.pfb></usr/share/texm
+f/fonts/type1/public/scalable-cyrfonts-tex/ftmr6w.pfb>
+Output written on report.pdf (18 pages, 986783 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

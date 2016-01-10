@@ -29,3 +29,9 @@ wireshark
 -хабрахабр
 -raspberrypi.org
 
+
+
+network={
+        ssid="ZyX"
+        psk=283e4ee5aad62c824e188d1abbb31a4b46438f65dbf52a29aef05baa9f4eb750
+}

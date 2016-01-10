@@ -1,0 +1,84 @@
+\input{config}
+
+\begin{document}
+
+\input{title}
+\input{referat}
+
+ % - содержание
+\newpage
+\ESKDstyle{plain}
+\tableofcontents
+
+
+% \titleformat{\section}{\centering\normalfont\normalsize}{\thesection}{1.0em}{}
+% \titleformat{\subsection}{\centering\normalfont\normalsize}{\thesubsection}{1.0em}{}
+% \titleformat{\subsubsection}{\centering\normalfont\normalsize}{\thesubsection}{1.0em}{}
+
+\newpage
+\ESKDstyle{plain}
+\setcounter{section}{0}
+\section*{ВВЕДЕНИЕ}
+\addcontentsline{toc}{section}{ВВЕДЕНИЕ}
+\input{intro}
+
+\section{Постановка задачи}
+\setcounter{figure}{0}
+\input{problem_form}
+
+\section{Используемые прораммные и аппаратные средства, обоснование выбора и их описание}
+\setcounter{figure}{0}
+\subsection{Raspberry Pi + TPLink}
+%\input{technical_things/git}
+\subsection{Ubuntu}
+%\input{technical_things/git}
+\subsection{Raspbian}
+%\input{technical_things/git}
+\subsection{tcpdump}
+%\input{technical_things/git}
+\subsection{wireshark}
+%\input{technical_things/git}
+
+
+\section{Проектирование и настройка пакетного сниффера}
+\setcounter{figure}{0}
+\subsection{Установка ОС Raspbian}
+\input{raspbian_installation}
+\subsection{настройка сети (Ethernet)}
+\input{network}
+\subsection{Установка ssh-соединения}
+\input{ssh}
+\subsection{Установка драйвера TP-Link}
+\input{driver}
+\subsection{Настройка режима monitor mode}
+\input{monitor_mode}
+\subsection{tcpdump}
+%\input{technical_things/git}
+\subsection{wireshark}
+%\input{technical_things/git}
+
+
+
+% ----
+
+
+% руководство пользователя
+% руководство программиста
+% перспективы применения
+% заключение
+
+\clearpage
+\renewcommand{\refname}{Список использованных источников}
+\bibliography{lit}
+
+
+
+% \ESKDappendix{Обязательное}{\normalfont Компакт-диск}
+% Компакт-диск содержит: 
+% \begin{itemize}
+% \item электронную версию пояснительной записки в форматах *.tex и *.pdf;
+% \item \textbf{актуальную версию программы};
+% \item \textbf{???}.
+% \end{itemize}
+
+\end{document}

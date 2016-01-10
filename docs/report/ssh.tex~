@@ -4,7 +4,7 @@ arp -vn:
 
 
 \begin{figure}[h!]
-\center{\includegraphics[width=0.8\linewidth]{ssh_1}}
+\center{\includegraphics[width=0.6\linewidth]{ssh_1}}
 \caption{ Параметры IPv4 для проводного соединения }
 \label{ssh_1:ssh_1}
 \end{figure}
@@ -12,7 +12,7 @@ arp -vn:
 connect ssh:
 
 \begin{figure}[h!]
-\center{\includegraphics[width=0.8\linewidth]{ssh_2}}
+\center{\includegraphics[width=0.6\linewidth]{ssh_2}}
 \caption{ Параметры IPv4 для проводного соединения }
 \label{ssh_2:ssh_2}
 \end{figure}

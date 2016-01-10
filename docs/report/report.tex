@@ -10,22 +10,15 @@
 \ESKDstyle{plain}
 \tableofcontents
 
-
-% \titleformat{\section}{\centering\normalfont\normalsize}{\thesection}{1.0em}{}
-% \titleformat{\subsection}{\centering\normalfont\normalsize}{\thesubsection}{1.0em}{}
-% \titleformat{\subsubsection}{\centering\normalfont\normalsize}{\thesubsection}{1.0em}{}
-
 \newpage
 \ESKDstyle{plain}
 \setcounter{section}{0}
-\section*{ВВЕДЕНИЕ}
-\addcontentsline{toc}{section}{ВВЕДЕНИЕ}
+\section*{Введение}
+\addcontentsline{toc}{section}{Введение}
 \input{intro}
 
-\section{Постановка задачи}
-\setcounter{figure}{0}
-\input{problem_form}
-
+\newpage
+\ESKDstyle{plain}
 \section{Используемые прораммные и аппаратные средства, обоснование выбора и их описание}
 \setcounter{figure}{0}
 \subsection{Raspberry Pi + TPLink}
@@ -40,10 +33,12 @@
 %\input{technical_things/git}
 
 
+\newpage
+\ESKDstyle{plain}
 \section{Проектирование и настройка пакетного сниффера}
 \setcounter{figure}{0}
 \subsection{Установка ОС Raspbian}
-%\input{technical_things/git}
+\input{raspbian_installation}
 \subsection{настройка сети (Ethernet)}
 \input{network}
 \subsection{Установка ssh-соединения}
@@ -59,26 +54,17 @@
 
 
 
-% ----
+\newpage
+\ESKDstyle{plain}
+\setcounter{section}{0}
+\section*{Заключение}
+\addcontentsline{toc}{section}{Заключение}
+\input{conclusion}
 
-
-% руководство пользователя
-% руководство программиста
-% перспективы применения
-% заключение
 
 \clearpage
 \renewcommand{\refname}{Список использованных источников}
+\addcontentsline{toc}{section}{Список использованных источников}
 \bibliography{lit}
-
-
-
-% \ESKDappendix{Обязательное}{\normalfont Компакт-диск}
-% Компакт-диск содержит: 
-% \begin{itemize}
-% \item электронную версию пояснительной записки в форматах *.tex и *.pdf;
-% \item \textbf{актуальную версию программы};
-% \item \textbf{???}.
-% \end{itemize}
 
 \end{document}

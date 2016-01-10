@@ -1,0 +1,13 @@
+
+
+https://www.raspberrypi.org/downloads/raspbian/
+
+\begin{figure}[h!]
+\center{\includegraphics[width=0.8\linewidth]{raspbian_1}}
+\caption{ Параметры IPv4 для проводного соединения }
+\label{raspbian_1:raspbian_1}
+\end{figure}
+
+
+installation guide
+https://www.raspberrypi.org/documentation/installation/installing-images/README.md
